@@ -1,0 +1,24 @@
+Seperti biasa, pertama, perbarui dan tingkatkan APT Anda.
+$ sudo apt update
+$ sudo apt upgrade
+
+Masukkan perintah berikut untuk mengunduh dan menginstal paket Docker.
+$ sudo apt install docker.io
+
+untuk cek setatus 
+$ sudo systemctl status docker
+
+untuk cek versi
+$ docker --version
+
+untuk mengaktifkan docker
+$ sudo systemctl enable --now docker
+
+buat perintah docker 
+$ sudo docker run hello-world
+
+cek data base
+$ sudo docker images
+
+Untuk menonaktifkannya lagi, cukup ketik perintah berikut.
+$ sudo systemctl disable --now docke
